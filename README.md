@@ -22,3 +22,14 @@ This class also provides the methods to perform the query and update the DAG.
 The *drawables* folder includes *DrawableTrapezoidalMap* which allows drawing trapezoids (through GL_POLYGON) with red highlighted vertical extensions.
 It also contains information about each trapezoid color.
 
+<hr/>
+
+<p align="center">
+<b>Construction of a trapezoidal map from a dataset with 30000 segments</b> <br/>
+<img alt="construction" width=750 src="https://user-images.githubusercontent.com/29896316/108433413-41136780-7246-11eb-9dbd-2d32668538d3.png">
+</p>
+
+<p align="center">
+<b>Query (trapezoid highlighted in blue)<b/> <br/>
+<img alt="query" width=750 src="https://user-images.githubusercontent.com/29896316/108434638-4a053880-7248-11eb-9119-62dc6fdeb838.png">
+</p>
