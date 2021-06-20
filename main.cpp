@@ -8,14 +8,14 @@ int main(int argc, char *argv[]) {
 
     QApplication app(argc, argv);
 
-    //Main window, it contains QGLViewer canvas
+    // Main window, it contains QGLViewer canvas
     cg3::viewer::MainWindow gui;
 
-    //Voronoi manager initialization
+    // Manager initialization
     TrapezoidalMapManager vm(&gui);
     gui.addManager(&vm, "Trapezoidal map Manager");
 
-    //Show the GUI
+    // Show the GUI
     gui.updateCanvas();
     gui.show();
 
